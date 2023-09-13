@@ -1,0 +1,53 @@
+p{
+    color: #662350; 
+    background-color:rgb(211, 176, 213);
+  }
+
+  h2{
+    color: #662350; 
+    background-color:rgb(211, 176, 213);
+  }
+
+  h3{
+    color: #662350; 
+    background-color:rgb(211, 176, 213);
+  }
+
+
+
+#divinfo{
+    color:rgb(211, 176, 213);
+    background-color: #662350;
+}
+
+body{
+    background-color:rgb(211, 176, 213);
+}
+
+.pinktext{
+    color:rgb(51, 3, 49)
+}
+
+.emphasize{
+    color:#2f5156
+}
+
+a {
+    color: #ff0000;
+  }
+  
+  a:link {
+    color: #cd513b;
+  }
+  
+  a:visited {
+    color: #83cd3b;
+  }
+  
+  a:active {
+    color: #00ffff;
+  }
+  
+  a:hover {
+    color: #e9e63f;
+  }        
