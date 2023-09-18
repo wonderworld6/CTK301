@@ -1,0 +1,45 @@
+a{
+    color:rgb(43, 129, 43);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(192, 56, 29);
+    text-decoration: underline;
+}
+
+#LB{
+    background-color:rgb(151, 184, 213);
+}
+
+h1{
+    color:azure;
+}
+
+h2{
+    color:rgb(29, 55, 183);
+}
+
+.yellow{
+    background-color:rgb(226, 217, 44);
+}
+
+#orangetxt{
+    color:rgb(188, 121, 12);
+}
+
+#redtxt{
+    color:rgb(202, 54, 24);
+}
+
+h4{
+    color:rgb(226, 217, 44);
+    background-color:rgb(57, 82, 22);
+}
+
+h5{
+    color:rgb(202, 54, 24);
+}
+
+
+
+
