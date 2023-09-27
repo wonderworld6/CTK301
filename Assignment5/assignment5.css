@@ -1,0 +1,78 @@
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: none;
+    background-color:rgb(190, 212, 232);
+    padding:30px;
+
+}
+
+h2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+nav li a{ 
+    padding: 10px;
+    margin: 5px;
+    background-color:rgb(25, 25, 162);
+    color:aliceblue;
+    display: block;
+    width: 125px;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a:hover{
+    background-color:rgb(88, 135, 234);
+    color:aliceblue;
+}
+
+
+footer p{
+    padding: 40px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #e3ece7;
+    background-color:rgb(25, 25, 162);
+    color:aliceblue;
+    font-style: italic;
+    display: block;
+}
+main{
+    background-color:rgb(190, 212, 232);
+    padding: 20px;
+    margin: 25px 5px;
+}
+
+main p{
+    text-align: justify;
+}
+
+main a{
+    color:rgb(37, 37, 202);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover{
+    color:rgb(196, 33, 24);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+body{
+    background-image: url(a5bg.png);
+}
