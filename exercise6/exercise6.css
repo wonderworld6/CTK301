@@ -1,0 +1,57 @@
+header {
+  grid-column: span 12;
+}
+
+nav {
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 200px;
+}
+
+nav li a {
+  display: block;
+  background-color: red;
+  border: 1px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  grid-column: span 9;
+}
+
+aside {
+  float: right;
+  width: 150px;
+}
+
+footer {
+  grid-column: span 12;
+  border: 1px solid #000000;
+}
+
+#wrapper{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+#main-wrapper{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+#bobross{
+  float: left;
+}
+
+.content{
+  clear: right;
+}
