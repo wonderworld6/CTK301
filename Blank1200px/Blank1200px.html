@@ -8,6 +8,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
 </head>
 <body>
 	
@@ -24,7 +26,12 @@
 	</nav>
 
 	<span id="vase_fit">
-		<img id="vase" src="cropped_vase.png" alt="grey vase with an eyeball in the middle">
+		<div id="myCarousel" class="f-carousel">
+			<div class="f-carousel__slide"><img src="cropped_vase.png"></div>
+			<div class="f-carousel__slide"><img src="staff.jpg"></div>
+			<div class="f-carousel__slide"><img src="standingby.jpg"></div>
+		</div>
+		
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor perdiet sed euismod nisi porta lorem.</p>
 	</span>
 
@@ -43,6 +50,12 @@
 		<h2>Footer</h2>
 	</footer>
 	</div>
+
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
 
 	<audio controls autobuffer autoplay >
 		<source src="Subwoofer_Lullaby.mp3" type="audio/mpeg">

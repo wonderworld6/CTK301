@@ -2,6 +2,16 @@ body {
   background-color: #ffffff;
 }
 
+#myCarousel {
+  margin-bottom: 24px;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 10px;
+  background: #DED7DB;
+}
+
 #wrapper {
   margin: 24px auto;
   width: 1200px;
