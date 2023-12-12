@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Noelle's Design Portfolio</title>
+	<link href="Blank1200px.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<header>
+			<h1>Contact</h1>
+		</header>
+
+	
+		<nav>
+			<ul>
+				<li><a href="FinalWebsite.html" target="_blank">Home</a></li>
+				<li><a href="FinalWebsite _1.html" target="_blank">About me</a></li>
+				<li><a href="FinalWebsite_2.html" target="_blank">Contact</a></li>
+				
+			</ul>
+		</nav>
+
+
+		<main id="contact_box">
+			<div class="container">
+				<form action="action_page.php">
+			  
+				  <label for="fname">First Name</label>
+				  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+			  
+				  <label for="lname">Last Name</label>
+				  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			  
+				  <label for="fname">Email</label>
+				  <input type="text" id="email" name="email" placeholder="Your email..">
+
+				  <label for="subject">Subject</label>
+				  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+			  
+				  <input type="submit" value="Submit">
+			  
+				</form>
+			  </div>
+		</main>
+
+		<footer>
+			<h2>Footer</h2>
+		</footer>
+
+		<audio controls autobuffer autoplay>
+			<source src="Subwoofer_Lullaby.mp3" type="audio/mpeg">
+		</audio>
+	</div>
+
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
+
+
+</body>
+
+</html>
